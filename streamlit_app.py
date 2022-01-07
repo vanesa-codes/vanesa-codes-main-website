@@ -26,7 +26,7 @@ img_gmail = Image.open("images/gmail_stock_img.jpg")
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi! I'm Vanesa :wave:")
-    st.markdown("<h1 style='text-align: center; color: white;'>I enjoy building solutions with data and code</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>I enjoy building solutions with data and code</h1>", unsafe_allow_html=True)
 
 # ---- BODY ----
 with st.container():
@@ -67,7 +67,7 @@ with st.container():
 with st.container():
     st.write("---")
     st.markdown("<h1 style='text-align: center;'>🎉</h1>", unsafe_allow_html=True)
-    st.markdown("<h3 style='text-align: center; color: white;'>Thanks for stopping by!</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>Thanks for stopping by!</h3>", unsafe_allow_html=True)
     st.write("##")
 with st.container():
     col1, col2, col3, col4, col5= st.columns((2.25,1,1,1,2))
