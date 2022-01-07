@@ -21,7 +21,7 @@ local_css("style/style.css")
 # ---- LOAD ASSETS ----
 lottie_url = "https://assets8.lottiefiles.com/packages/lf20_w51pcehl.json"
 lottie_json = load_lottieurl(lottie_url)
-img_gmail = Image.open("images\gmail_stock_img.jpg")
+img_gmail = Image.open("images/gmail_stock_img.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
