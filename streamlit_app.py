@@ -1,6 +1,7 @@
 from PIL import Image
 import requests
 import streamlit as st
+import streamlit.components.v1 as components
 from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="Vanesa Hercules")
