@@ -23,6 +23,10 @@ lottie_url = "https://assets8.lottiefiles.com/packages/lf20_w51pcehl.json"
 lottie_json = load_lottieurl(lottie_url)
 img_gmail = Image.open("images/gmail_stock_img.jpg")
 
+# ---- SCROLL TO TOP  ----
+if "counter" not in st.session_state:
+    st.session_state.counter = 1
+
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi! I'm Vanesa :wave:")
@@ -81,3 +85,27 @@ with st.container():
         st.write("[GitHub](https://github.com/vnhercules)")
     with col5:
         st.empty()
+with st.container():
+    st.write("##")
+    col1, col2, col3, col4, col5= st.columns((2,1,1,1,2))
+    with col1:
+        st.empty()
+    with col2:
+        st.empty()
+    with col3:
+        if st.button("Back to Top"):
+            st.session_state.counter += 1
+    with col4:
+        st.empty()
+    with col5:
+        st.empty()
+
+components.html(
+    f"""
+        <p>{st.session_state.counter}</p>
+        <script>
+            window.parent.document.querySelector('section.main').scrollTo(0, 0);
+        </script>
+    """,
+    height=0
+)
