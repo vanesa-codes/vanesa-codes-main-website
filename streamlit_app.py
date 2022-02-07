@@ -31,7 +31,7 @@ if "counter" not in st.session_state:
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi! I'm Vanesa :wave:")
-    st.markdown("<h1 style='text-align: center;'>I enjoy building solutions with data and code</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>I enjoy building solutions with code</h1>", unsafe_allow_html=True)
 
 # ---- BODY ----
 with st.container():
@@ -42,7 +42,7 @@ with st.container():
         st.write("##")
         st.write(
             """
-            I'm a graduate student in Applied Computer Science. My interests are in task automation, machine learning, and blockchain solutions.
+            I'm a graduate student in Applied Computer Science. My interests are in task automation, machine learning, and blockchain.
 
             In my free time, you can find me listening to podcasts, exploring record stores, watching futbol, reading memoirs, and going on adventures with my partner and two dogs.
             """
