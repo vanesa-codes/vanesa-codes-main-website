@@ -42,9 +42,9 @@ with st.container():
         st.write("##")
         st.write(
             """
-            I'm a graduate student in Applied Computer Science. My interests are in task automation, machine learning, and blockchain.
+            I'm a graduate student in Applied Computer Science. My interests are in task automation, data wrangling, and machine learning.
 
-            In my free time, you can find me listening to podcasts, exploring record stores, watching futbol, reading memoirs, and going on adventures with my partner and two dogs.
+            In my free time, you can find me listening to podcasts, exploring record stores, watching soccer, reading memoirs, and going on adventures with my partner and two dogs.
             """
         )
     with right_column:
@@ -81,7 +81,7 @@ with st.container():
     with col2:
         st.write("[Email](mailto:vnhercules@gmail.com)")
     with col3:
-        st.write("[Twitter](https://twitter.com/vnhercules)")
+        st.write("[Twitter](https://twitter.com/VanesaHercules)")
     with col4:
         st.write("[GitHub](https://github.com/vnhercules)")
     with col5:
