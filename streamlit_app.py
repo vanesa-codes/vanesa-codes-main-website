@@ -42,9 +42,9 @@ with st.container():
         st.write("##")
         st.write(
             """
-            I'm a graduate student in Applied Computer Science. My interests are in task automation, data wrangling, and machine learning.
+            I am a graduate student in Applied Computer Science. My interests are in automation, data wrangling, and creative coding.
 
-            In my free time, you can find me listening to podcasts, exploring record stores, watching soccer, reading memoirs, and going on adventures with my partner and two dogs.
+            In my free time, you can find me exploring record stores, watching soccer, reading memoirs, and going on adventures with my partner and two dogs.
             """
         )
     with right_column:
