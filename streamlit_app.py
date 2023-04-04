@@ -42,7 +42,7 @@ with st.container():
         st.write("##")
         st.write(
             """
-            I am a graduate student in Applied Computer Science. My interests are in automation, data wrangling, and creative coding.
+            I recently graduated with a master's degree in Applied Computer Science. My interests are in automation, data wrangling, and creative coding.
 
             In my free time, you can find me exploring record stores, watching soccer, reading memoirs, and going on adventures with my partner and two dogs.
             """
