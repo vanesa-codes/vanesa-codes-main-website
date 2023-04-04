@@ -81,7 +81,7 @@ with st.container():
     with col2:
         st.write("[Email](mailto:vnhercules@gmail.com)")
     with col3:
-        st.write("[Twitter](https://twitter.com/VanesaHercules)")
+        st.empty()
     with col4:
         st.write("[GitHub](https://github.com/vnhercules)")
     with col5:
