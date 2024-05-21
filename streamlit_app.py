@@ -31,7 +31,7 @@ if "counter" not in st.session_state:
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi! I'm Vanesa :wave:")
-    st.markdown("<h1 style='text-align: center;'>I enjoy building solutions with code</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Data Management, Privacy & AI</h1>", unsafe_allow_html=True)
 
 # ---- BODY ----
 with st.container():
@@ -42,9 +42,12 @@ with st.container():
         st.write("##")
         st.write(
             """
-            I recently graduated with a master's degree in Applied Computer Science. My interests are in automation, data engineering, and creative coding.
+            Experienced technology consultant specializing in data management, privacy & AI. 
+            
+            Master's degree in Applied Computer Science. 
+            
+            Dabbling in automation, data engineering, and robotics.
 
-            In my free time, you can find me exploring record stores, watching soccer, reading memoirs, and going on adventures with my partner and two dogs.
             """
         )
     with right_column:
