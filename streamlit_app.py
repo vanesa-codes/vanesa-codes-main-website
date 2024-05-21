@@ -46,7 +46,7 @@ with st.container():
             
             Master's degree in Applied Computer Science. 
             
-            Dabbling in automation, data engineering, and robotics.
+            Always dabbling in automation, data engineering & robotics.
 
             """
         )
