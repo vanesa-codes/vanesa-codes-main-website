@@ -4,6 +4,23 @@ import streamlit as st
 import streamlit.components.v1 as components
 from streamlit_lottie import st_lottie
 
+components.html(
+    f"""
+        <head><!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JE3T9SS4CY"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-JE3T9SS4CY');
+        </script>
+        </head>
+    """,
+    height=0
+)
+
+
 st.set_page_config(page_title="Vanesa Hercules")
 
 def load_lottieurl(url: str):
