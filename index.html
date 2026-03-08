@@ -4,81 +4,106 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vanesa Hercules</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style/style.css" />
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body>
 
-  <!-- HEADER -->
-  <section class="header">
-    <p class="greeting">Hi! I'm Vanesa &#128075;</p>
-    <h1>Data Management, Privacy &amp; AI</h1>
-  </section>
+  <div class="top-bar"></div>
 
-  <hr />
+  <main class="container">
 
-  <!-- ABOUT -->
-  <section class="about">
-    <div class="about-text">
-      <h2>About me</h2>
-      <p>
-        Experienced technology consultant specializing in data management, privacy &amp; AI.
-      </p>
-      <p>
-        Master's degree in Applied Computer Science.
-      </p>
-      <p>
-        Dabbling in automation, data engineering &amp; robotics.
-      </p>
-    </div>
-    <div class="about-animation">
-      <lottie-player
-        src="https://assets8.lottiefiles.com/packages/lf20_w51pcehl.json"
-        background="transparent"
-        speed="1"
-        style="width: 300px; height: 300px;"
-        loop
-        autoplay
-      ></lottie-player>
-    </div>
-  </section>
+    <!-- HERO -->
+    <section class="hero">
+      <p class="greeting">Hi, I'm Vanesa <span class="wave-hand">&#128075;</span></p>
+      <h1>Bridging privacy, engineering, and product development</h1>
+    </section>
 
-  <hr />
-
-  <!-- PROJECTS -->
-  <section class="projects">
-    <h2>My latest project</h2>
-    <div class="project-card">
-      <div class="project-image">
-        <img src="images/gmail_stock_img.jpg" alt="Gmail screenshot" />
-      </div>
-      <div class="project-text">
-        <h3>Extract Unsubscribe Links from Emails</h3>
-        <p>
-          Using Google Apps Script and Python, this project gathers messages from Gmail
-          and extracts unsubscribe links to Google Sheets.
+    <!-- ABOUT -->
+    <section class="about">
+      <div class="about-text">
+        <h2><span class="dot"></span>About</h2>
+        <p>I'm a privacy technologist focused on building data and AI products by helping teams translate privacy law requirements into practical technical solutions.</p>
+        <p>My work and writing centers on embedding privacy directly into systems, data pipelines, and product design rather than treating it as a compliance afterthought. I'm particularly interested in how organizations can operationalize concepts like privacy by design, data minimization, and responsible AI within modern engineering environments.</p>
+        <p>When I'm not exploring new ideas in privacy, you'll find me tinkering with side projects, attempting DIY home improvements of questionable difficulty, diving deep into whatever random topic caught my interest that week, or riding my bike while fueled by pastries, coffee, and the wind in my hair.</p>
         </p>
-        <a
-          href="https://medium.com/@vnhercules/extract-unsubscribe-links-from-emails-using-apps-script-and-python-800afb8e0ec6"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Read more &raquo;</a>
       </div>
-    </div>
-  </section>
+      <div class="about-animation">
+        <lottie-player
+          src="https://assets8.lottiefiles.com/packages/lf20_w51pcehl.json"
+          background="transparent"
+          speed="1"
+          style="width: 280px; height: 280px;"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+    </section>
 
-  <hr />
+     <!-- WRITING -->
+    <section class="writing">
+      <h2><span class="dot"></span>Writings</h2>
+      <a
+        class="project-card"
+        href="https://iapp.org/news/a/gaps-in-website-opt-out-functionality-under-the-microscope-in-privacy-enforcement"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="project-text">
+          <span class="project-tag">Opt-out compliance</span>
+          <h3>Gaps in website opt-out functionality under the microscope in privacy enforcement</h3>
+          <p>
+            IAPP, December 2025
+          </p>
+          <span class="read-more">Read more &rarr;</span>
+        </div>
+      </a>
+    </section>
 
-  <!-- CONTACT -->
-  <section class="contact">
-    <p class="wave">&#127881;</p>
-    <h3>Thanks for stopping by!</h3>
-    <div class="contact-links">
-      <a href="mailto:vnhercules@gmail.com">Email</a>
-      <a href="https://github.com/vnhercules" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">Back to Top</button>
-  </section>
+    <!-- PROJECTS -->
+    <section class="projects">
+      <h2><span class="dot"></span>Projects</h2>
+      <a
+        class="project-card"
+        href="https://medium.com/@vnhercules/extract-unsubscribe-links-from-emails-using-apps-script-and-python-800afb8e0ec6"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="project-text">
+          <span class="project-tag">Automation</span>
+          <h3>Extract Unsubscribe Links from Emails</h3>
+          <p>
+            Using Google Apps Script and Python, this project gathers messages
+            from Gmail and extracts unsubscribe links to Google Sheets.
+          </p>
+          <span class="read-more">Read more &rarr;</span>
+        </div>
+      </a>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact">
+      <div class="contact-inner">
+        <p class="confetti">&#127881;</p>
+        <h2>Thanks for stopping by!</h2>
+        <div class="contact-links">
+          <a href="mailto:vnhercules@gmail.com" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            Email
+          </a>
+          <a href="https://github.com/vnhercules" target="_blank" rel="noopener noreferrer" class="contact-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            GitHub
+          </a>
+        </div>
+        <button class="back-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">&#8593; Back to top</button>
+      </div>
+    </section>
+
+  </main>
 
 </body>
 </html>

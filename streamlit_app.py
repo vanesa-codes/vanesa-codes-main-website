@@ -31,7 +31,7 @@ if "counter" not in st.session_state:
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi! I'm Vanesa :wave:")
-    st.markdown("<h1 style='text-align: center;'>Data Management, Privacy & AI</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Privacy engineering for Data & AI products</h1>", unsafe_allow_html=True)
 
 # ---- BODY ----
 with st.container():
@@ -42,7 +42,7 @@ with st.container():
         st.write("##")
         st.write(
             """
-            Experienced technology consultant specializing in data management, privacy & AI. 
+            Experienced technology consultant specializing in privacy privacy & AI. 
             
             Master's degree in Applied Computer Science. 
             
