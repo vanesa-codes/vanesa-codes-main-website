@@ -1,4 +1,175 @@
-/* Hide Streamlit Branding */
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
+/* ---- RESET & BASE ---- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", "Segoe UI", sans-serif;
+  background-color: #0e1117;
+  color: #fafafa;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  line-height: 1.6;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #2d2d2d;
+  margin: 2.5rem 0;
+}
+
+a {
+  color: #ff4b4b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---- HEADER ---- */
+.header {
+  padding: 2rem 0 1rem;
+}
+
+.greeting {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.header h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ---- ABOUT ---- */
+.about {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1 1 300px;
+}
+
+.about-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 0.75rem;
+  color: #c6c6c6;
+}
+
+.about-animation {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* ---- PROJECTS ---- */
+.projects h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  flex: 0 0 auto;
+  max-width: 260px;
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-text {
+  flex: 1 1 200px;
+}
+
+.project-text h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-text p {
+  color: #c6c6c6;
+  margin-bottom: 1rem;
+}
+
+/* ---- CONTACT ---- */
+.contact {
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+
+.wave {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.contact button {
+  background: none;
+  border: 1px solid #555;
+  color: #fafafa;
+  padding: 0.4rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.contact button:hover {
+  border-color: #ff4b4b;
+  color: #ff4b4b;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 1.7rem;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about-animation {
+    order: -1;
+  }
+
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-image {
+    max-width: 100%;
+  }
+}
